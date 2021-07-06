@@ -11,33 +11,33 @@ function App() {
   const alternatives = {
     energy: {
       title: "Energia",
-      body: "La colonización del espacio sera alimentada por nuevas tecnologias que nos permitiran producir energia de manera limpia y segura, brindando mayor autonomia en la exploración del cosmos.",
+      body: "La colonización del espacio sera alimentada por nuevas tecnologias que produciran energia de manera limpia y segura, brindando mayor autonomia en la exploración del cosmos.",
       header: "Iluminando el cosmos",
       device: "Reactor Antu",
-      text: "Los Reactores Antu producen grandes cantidades de energia a traves del proceso de fisión nuclear. Esto los vuelve mas eficientes y seguros que las alternativas convencionales. Su diminuto tamaño permite implementarlo en naves y estaciones espaciales de pequeña envergadura. El mantenimiento requequerido es infimo por lo que incrementa ampliamente la autonomia del viaje estelar. ",
+      text: "Los Reactores Antu producen grandes cantidades de energia a traves del proceso de fisión nuclear. Esto los vuelve mas eficientes y seguros que las alternativas convencionales. Su diminuto tamaño permite implementarlo en naves y estaciones espaciales de pequeña envergadura. El mantenimiento requerido es infimo por lo que incrementa ampliamente la autonomia del viaje estelar. ",
     },
     transport: {
       title: "Transporte",
       body: "El espacio siempre ha cautivado la imaginación humana. Lo que antes era un sueño hoy es posible. Descubri como INVAP te permite ir a donde nadie se atrevio.",
       header: "Desafiando la ultima frontera.",
       device: "Patoruzu",
-      text: "Nuestro proceso de manufactura hibrido combina la producción terrestre de modulos altamente complejos con el avanzadas tecnicas de ensamblaje en orbita lunar. Esto nos permite ofrecer costos insuperables, posicionandonos como uno de los principalescomo uno de los principales productores de naves de carga interestelar en el mundo.",
+      text: "Nuestro proceso de manufactura hibrido combina la producción terrestre de modulos altamente complejos con avanzadas tecnicas de ensamblaje en orbita lunar. Esto nos permite ofrecer costos insuperables, posicionandonos como uno de los principales productores de naves de carga interestelar en el mundo.",
 
     },
     habitat: {
       title: "Habitat",
-      body: "Cuando pensamos en el espacio solemos imaginarlo como un lugar frio y desolado. Conoce como INVAP esta cambiando esta realidad, llevando La Tierra a los colonos mas distantes.",
+      body: "Cuando pensamos en el espacio solemos hacerlo como un lugar frio y desolado. Conoce como INVAP esta cambiando esta realidad, llevando La Tierra a los colonos mas distantes.",
       header: "Llevando la tierra al espacio",
       device: "Elmapu",
-      text: "Los Domos Ecologicos Elmapu representan el pinaculo de la ingenieria en terraformación. Dentro de ellos un ecosistema controlado imita las condiciones de vida en la tierra y permite a los colonos disfrutas de un estandar de vida elevado en lso confines del sistema solar. ",
+      text: "Los Domos Ecologicos Elmapu representan el pinaculo de la ingenieria en terraformación. Dentro de ellos un ecosistema controlado imita las condiciones de vida en la tierra y permite a los colonos disfrutar de un estandar de vida elevado en los confines del sistema solar. ",
 
     },
     communication: {
       title: "Comunicación",
-      body: "El universo se ha convertido en un sistema interconectado e INVAP se encuentra en el centro de este nuevo paradigma, permitiendo la transmisión casi inmediata de información entre los puntos mas remotos de la galaxia.",
+      body: "El universo se ha convertido en un sistema interconectado e INVAP se encuentra en el centro de este nuevo paradigma. Descubri como conectamos los puntos mas remotos de la galaxia.",
       header: "Conectando las estrellas",
       device: "MAFALDA II",
-      text: "El Satelite de Comunicación de Alta Frecuencia Mafalda II se ha convertido en el estandar para la transmisión en el espacio. Orbitando en las proximidades de las principales colonias humanas recibe datos por radiofrecuencia y los retransmite mediante un complejo proceso de entrelazamiento cuantico que supera las limitaciones que impone la velocidad de la luz y permite el desarrollo de la Internet Universal",
+      text: "El Satelite de Comunicación de Alta Frecuencia Mafalda II se ha convertido en el estandar para la transmisión en el espacio. Orbitando en las proximidades de las principales colonias humanas recibe datos por radiofrecuencia y los retransmite mediante un complejo proceso de entrelazamiento cuantico que supera las limitaciones que impone la velocidad de la luz y permite el desarrollo de la Internet Universal.",
 
     },
   }
