@@ -1,0 +1,369 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  height: 100%;
+  color:white;
+  background-color: black;
+}
+
+
+.invapTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  z-index: 1231231
+}
+
+.lols{
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  margin-left: 5em;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sceneTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  margin-left: 5em;
+  margin-top: 3em;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.headerr{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  color: black;
+}
+
+.sceneCard {
+  width: 20em;
+  height: 20em;
+  margin-right: 8em;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow:hidden;
+}
+
+.sceneCardFirst{
+  width: 20em;
+  height: 20em;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow:hidden;
+}
+
+.sceneCard:hover{
+    border: 1px solid white;
+  }
+
+.sceneCardFirst:hover{
+  border: 2px solid white;
+}
+
+.sceneContainer{
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
+.videoContainer{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index:0;
+  -o-filter: blur(2px);
+  filter: blur(2px);
+}
+
+
+.videoCircle{ 
+  width: 200%;
+  background-size:contain;
+  background-position:center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.description{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.code {
+  background: #000000;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 45%;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.spaceship{
+  width:20%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.mainButton{
+  color: white;
+}
+
+.titlee{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.descrBox{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6%;
+  margin-left: 30%;
+  color: white;
+  margin-top: 3rem;
+}
+
+.description{
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  width: 70%;
+}
+.spaceshipButton{
+  position: fixed;
+  width:20%;
+  left: 0;
+  bottom: 0;
+}
+
+.descrTitle{
+  font-size: 2.5rem;
+}
+
+.render{
+  width:300px;
+}
+
+.model{
+  min-width: 100%;
+  min-height: 100%;
+  z-index:0;
+}
+
+.renderContainer{
+  z-index: 10;
+  width: 80rem;
+  height: 28rem;
+  margin-right: 8rem;
+}
+
+.singleView{
+  background-image: '.(marsBackground.png';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display{
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  z-index:10;
+}
+
+.singleVideo{
+  width: 50rem;
+}
+
+.videoTitle{
+  width: 40rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.modelDescription{
+  width: 60%;
+  z-index: 1;
+}
+
+.modelTitle{
+  color:lightgreen;
+  font-size: 3rem;
+  font-family: monospace;
+}
+
+.modelText{
+  padding-right: 6rem;
+  font-size: 1.5rem;
+}
+
+.modalTitle{
+  color:black;
+  font-size: 3rem;
+  font-family: monospace;
+  align-items: center;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: lightgreen;
+  font-family: monospace;
+  font-size: 2.4rem;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid transparent; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation-delay: 3s;
+  animation: 
+    typing 4s steps(40, end),
+    blink-caret 0.5s step-end 3;
+    
+}
+
+.inputBox{
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+.textInputt{
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.hireForm{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  180% { border-color: transparent }
+}
